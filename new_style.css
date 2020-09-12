@@ -1,0 +1,220 @@
+:root {
+
+	--prim_txt: red;
+	--sec-txt: rgb(196, 200, 207);
+	--dark: ;
+	--darkbg: rgb(25, 28, 35);
+	--boxgrey: #383a3d;
+	--box_red: red;
+	;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box !important;
+	text-decoration: none !important;
+	font-family: sans-serif !important;
+
+}
+
+.orange_bg_txt {
+	color: var(--darkbg);
+}
+
+body {
+
+	width: 100%;
+	color: red !important;
+	background-image: url('back2back.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+body section {
+
+	width: 100vw;
+	height: 100%;
+	background-color: var(--darkbg);
+	padding: 2rem 1rem !important;
+}
+
+/*-------------- section 1 -------------*/
+
+.section1 {
+	height: 100vh;
+	background-color: transparent !important;
+
+}
+
+/*          navigation bar         */
+
+
+.section1 nav {
+
+	padding: 0 !important;
+	margin: 0 0 8rem !important;
+	color: var(--prim_txt) !important;
+}
+
+.section1 nav .lg-logo-txt {
+
+	width: 70%;
+	font-size: 25px;
+	font-weight: 600;
+	color: var(--prim_txt) !important;
+}
+
+.section1 nav .lg-logo-txt .lg-txt {
+	display: none;
+}
+
+.section1 nav .lg-logo-txt img {
+	box-shadow: 2px 2px 5px 2px red, -2px -2px 5px 2px red;
+}
+
+.section1 nav button {
+	border: none;
+	outline: none;
+}
+
+#navbarNav {
+	padding-top: 2rem;
+
+}
+
+#navbarNav ul li a {
+	color: var(--prim_txt) !important;
+	font-size: 20px;
+	font-weight: 600;
+	border-radius: 100%;
+
+}
+
+#navbarNav ul .active a {
+
+	background-color: rgba(255, 0, 0, 0.5);
+	color: white !important;
+}
+
+/*        Weclcome text      */
+
+.welcometext h1 {
+
+	font-size: 2rem;
+}
+
+.welcometext p {
+
+	color: var(--sec-txt);
+	font-size: 1.2rem;
+	margin-bottom: 2rem;
+	line-height: 40px;
+
+}
+
+.welcometext button {
+	margin-top: 2rem;
+	font-weight: bold;
+	;
+}
+
+
+/* ----------- Section 2 ----------- */
+
+
+.section2 .section2_wrapper {
+
+	display: flex;
+	flex-direction: column;
+
+}
+
+.section2 .section2_wrapper .about {
+	margin-bottom: 2rem;
+}
+
+.section2 .section2_wrapper .about div {
+	padding: 10px;
+}
+
+.section2 .section2_wrapper .about h1 {
+
+	font-size: 1.7rem;
+	/* font-weight: bold; */
+}
+
+.section2 .section2_wrapper .about p {
+	color: var(--sec-txt);
+	font-size: 15px;
+}
+
+.section2 .section2_wrapper .my_grid {
+
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.section2 .section2_wrapper .my_grid .my_item {
+
+	padding: 12px 10px;
+	height: auto;
+	margin-bottom: 2rem;
+	background-color: var(--boxgrey);
+	text-align: center;
+	border-radius: 30px;
+}
+
+.section2 .section2_wrapper .my_grid div:nth-child(odd) {
+
+	background-color: var(--prim_txt);
+}
+
+.section2 .section2_wrapper .my_grid .my_item h1 {
+
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.section2 .section2_wrapper .my_grid .my_item p {
+
+	font-size: 1rem;
+	color: var(--sec-txt);
+	line-height: 18px;
+}
+
+
+/* --------- section 3 ---------- */
+.section3 {
+	padding-top: 0 !important;
+}
+
+.section3 hr {
+	border: 1px solid red;
+	margin: 0 0 4rem;
+}
+
+.section3 .wrapper .reasons-wrapper {
+
+	height: auto;
+	width: 100%;
+}
+
+.section3 .wrapper .reasons-wrapper div {
+
+	margin-bottom: 2rem;
+	width: 100%;
+	text-align: center;
+}
+
+.section3 .wrapper .reasons-wrapper h1 {
+
+	font-size: 2rem;
+}
+
+.section3 .wrapper .reasons-wrapper p {
+
+	font-size: 0.9rem;
+	color: var(--sec-txt);
+}

@@ -1,0 +1,271 @@
+:root {
+
+    --prm: #e61717;
+    --dark2: rgb(25, 28, 35);
+    --par: #edeff2;
+}
+
+* {
+    font-family: sans-serif !important;
+}
+
+body {
+    width: 100% !important;
+}
+
+.heading {
+    color: var(--prm) !important;
+}
+
+.para {
+    color: var(--par) !important;
+    padding-top: 2rem;
+    font-size: 17px;
+}
+
+.bgimg {
+
+    margin: 0 !important;
+    box-sizing: border-box;
+    background-image: url(back2back.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 6rem !important;
+}
+
+.navigation-bar {
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.3) !important;
+    text-align: center !important;
+    align-items: center !important;
+}
+
+/*
+.navbar-brand{
+    padding-left: 1rem !important;
+    color: var(--prm) !important;
+    font-size: 20px !important;
+}
+*/
+.logo-txt {
+    color: var(--prm) !important;
+    font-size: 30px !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: flex-end !important;
+    box-sizing: border-box;
+}
+
+.linktxt {
+    color: whitesmoke !important;
+    font-size: 20px !important;
+    font-weight: 600;
+    margin-left: 2rem;
+    transition: all 0.5s ease;
+}
+
+.linktxt:hover {
+    color: var(--prm) !important;
+    font-size: 20px !important;
+    font-weight: 600;
+    margin-left: 2rem;
+}
+
+.welcometext {
+    padding-top: 4rem !important;
+    padding-bottom: 2rem !important;
+
+}
+
+.welcometext h1 {
+    font-size: 45px;
+}
+
+.welcometext p {
+    padding-top: 2rem;
+    color: #fff !important;
+    font-size: 40px;
+    margin-bottom: 8rem;
+}
+
+/*//////////////Sections 2//////////////////*/
+
+.main2 {
+    height: auto;
+    background-color: var(--dark2);
+}
+
+/*
+.main2 div {
+    border: 1px solid red;
+}*/
+
+.main2 .row div {
+    height: 200px;
+}
+
+.main2 .row .col h1 {
+    font-size: 30px;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.main2 .row .col .inside {
+    font-size: 14px !important;
+    padding-top: 5px !important;
+}
+
+/*////////////////Section 3///////////////*/
+
+.sec3 {
+    height: 1300px;
+    width: 100% !important;
+    background-color: var(--dark2);
+
+}
+
+.sec3 .wrapper .reasons {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    background: red;
+}
+
+.sec3 .wrapper .reasons img {
+    width: auto;
+    height: 100%;
+}
+
+.sec3 .wrapper .reasons img {
+    min-width: 550px;
+    height: 100%;
+}
+
+.sec3 .wrapper .about-tattoo .about-wrapper {
+    margin: 1rem;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.sec3 .wrapper .about-tattoo .about-wrapper .grid-item {
+    height: auto;
+    padding: 3rem;
+    background: #383a3d;
+    border: 2px solid transparent;
+    border-radius: 50px;
+
+}
+
+.sec3 .wrapper .about-tattoo .about-wrapper .grid-item h1 {
+
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.sec3 .wrapper .about-tattoo .about-wrapper .grid-item p {
+
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 17px;
+}
+
+/*////////////// section 4 /////////////////*/
+
+.sec4 {
+    height: auto;
+    background-color: var(--dark2);
+    padding-bottom: 4rem;
+}
+
+.sec4 .contact {
+    background-color: rgba(255, 0, 0, 0.9);
+    padding-top: 5rem;
+    height: 300px;
+    align-content: center;
+    align-items: center;
+}
+
+.sec4 .testimonial-wrapper {
+    height: auto;
+    padding-top: 5rem;
+}
+
+.sec4 .testimonial-wrapper .test-head {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+}
+
+.sec4 .testimonial-wrapper .testimonial {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+}
+
+.sec4 .testimonial-wrapper .testimonial .img-wrapper {
+
+    height: 100%;
+    width: 30%;
+    margin-right: 3rem;
+}
+
+.sec4 .testimonial-wrapper img {
+    object-fit: scale-down;
+}
+
+.sec4 .testimonial-wrapper .testimonial .review {
+
+    background: red;
+    height: 100%;
+    opacity: 0.8;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+
+
+/* @media (max-width: 540px){
+
+    html{
+        width: 100vw;
+    }
+
+    body{
+        width: 100%;
+    }
+
+    .reasons, .reasons-wrapper{
+        width: 100%;
+    }
+
+    .img-wrapper{
+        width: 30vw;
+    }
+
+    .welcometext h1{
+        font-size: 30px;
+    }
+
+    .bgimg{
+        width: 100%;
+    }
+    
+} */
+
+
+
+
+/*////////////   Footter //////////////*/

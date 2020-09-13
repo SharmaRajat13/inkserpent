@@ -87,7 +87,7 @@ body section {
 	color: var(--prim_txt) !important;
 	font-size: 20px;
 	font-weight: 600;
-	border-radius: 100%;
+	border-radius: 20px;
 
 }
 

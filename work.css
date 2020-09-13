@@ -1,0 +1,198 @@
+:root {
+
+    --prim_txt: rgb(230, 23, 23);
+    --sec-txt: rgb(196, 200, 207);
+    --darkbg: rgb(25, 28, 35);
+    --boxgrey: #383a3d;
+    --box_red: rgb(240, 70, 70);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+    text-decoration: none !important;
+    font-family: 'Lato', sans-serif !important;
+
+}
+
+body {
+    width: 100vw;
+    background-color: var(--darkbg);
+}
+
+body section {
+
+    width: 100vw;
+    height: auto;
+    background-color: var(--darkbg);
+    padding: 2rem 1rem !important;
+}
+
+
+
+
+
+
+
+
+
+/*------------- section 1 ---------------- */
+
+
+/*          navigation bar         */
+
+.section1 nav {
+
+    padding: 0 !important;
+    margin: 0 0 3rem !important;
+    color: var(--prim_txt) !important;
+}
+
+.section1 nav .lg-logo-txt {
+
+    width: 70%;
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--prim_txt) !important;
+}
+
+.section1 nav .lg-logo-txt .lg-txt {
+    display: none;
+}
+
+.section1 nav .lg-logo-txt img {
+    box-shadow: 2px 2px 5px 2px red, -2px -2px 5px 2px red;
+}
+
+.section1 nav button {
+    border: none;
+    outline: none;
+}
+
+#navbarNav {
+    padding-top: 2rem;
+
+}
+
+#navbarNav ul li a {
+    color: var(--prim_txt) !important;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 100%;
+
+}
+
+#navbarNav ul .active a {
+
+    background-color: rgba(230, 23, 23, 0.5);
+    color: white !important;
+}
+
+/* ---------- work ----------- */
+
+.section1 .work {
+
+    text-align: center;
+    color: var(--prim_txt);
+}
+
+.section1 .work h1 {
+
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px #7085b5, -2px -2px 8px #7085b5,
+        2px 2px 5px white, -2px -2px 5px white;
+
+}
+
+/*     about_artist section */
+
+.section1 .work .artist {
+
+    padding: 5px;
+    height: auto;
+}
+
+.section1 .work .artist .artist_img img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    margin-bottom: 3rem;
+
+}
+
+.section1 .work .artist .about_artist {
+
+    width: 100%;
+
+}
+
+.section1 .work .artist .about_artist h2 {
+
+    width: 100%;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+.section1 .work .artist .about_artist h6 {
+
+    width: 100%;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 2rem;
+
+}
+
+.section1 .work .artist .about_artist p {
+
+    width: 100%;
+    color: var(--sec-txt);
+    margin-bottom: 2rem;
+
+}
+
+/*   work gallery  */
+
+.work .img_grid {
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: auto;
+    grid-row-gap: 1rem;
+}
+
+.work .img_grid .grid_item {
+
+    width: 100%;
+    border: 2px solid white;
+    position: relative;
+}
+
+.work .img_grid .grid_item figure {
+    margin: 0;
+}
+
+.work .img_grid .grid_item figure img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.work .img_grid .grid_item figure figcaption {
+
+    background-color: rgba(171, 174, 179, 0.5);
+    width: 100%;
+    font-size: large;
+    font-weight: 600;
+    word-spacing: 5px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translate(0, -100%);
+
+}

@@ -2,7 +2,6 @@
 
 	--prim_txt: rgb(230, 23, 23);
 	--sec-txt: rgb(196, 200, 207);
-	--dark: ;
 	--darkbg: rgb(25, 28, 35);
 	--boxgrey: #383a3d;
 	--box_red: rgb(240, 70, 70);
@@ -24,17 +23,15 @@
 body {
 
 	width: 100%;
+	/* background-color: var(--darkbg); */
 	color: red !important;
-	background-image: url('back2back.jpg');
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
+
 }
 
 body section {
 
 	width: 100vw;
-	height: 100%;
+	height: auto;
 	background-color: var(--darkbg);
 	padding: 2rem 1rem !important;
 }
@@ -43,7 +40,10 @@ body section {
 
 .section1 {
 	height: 100vh;
-	background-color: transparent !important;
+	background-image: url('back2back.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
 
 }
 
@@ -101,13 +101,13 @@ body section {
 
 .welcometext h1 {
 
-	font-size: 2rem;
+	font-size: 2.5rem;
 }
 
 .welcometext p {
 
 	color: var(--sec-txt);
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	margin-bottom: 2rem;
 	line-height: 40px;
 
@@ -116,7 +116,6 @@ body section {
 .welcometext button {
 	margin-top: 2rem;
 	font-weight: bold;
-	;
 }
 
 
@@ -190,7 +189,7 @@ body section {
 }
 
 .section3 hr {
-	border: 1px solid red;
+	border-top: 2px solid red;
 	margin: 0 0 4rem;
 }
 
@@ -204,7 +203,7 @@ body section {
 
 .section3 .wrapper .reasons-wrapper div {
 
-	margin-bottom: 2rem;
+	margin-bottom: 3rem;
 	width: 100%;
 	text-align: center;
 }
@@ -253,3 +252,63 @@ body section {
 	font-size: 1rem;
 	color: var(--sec-txt);
 }
+
+
+/* ------------------ Section 4  -------------------- */
+.section4 .call_us {
+	margin-bottom: 3rem;
+	text-align: center;
+}
+
+.section4 .call_us>h1 {
+	font-size: 2rem;
+	line-height: 4rem;
+}
+
+
+
+.section4 .testimonial_wrapper .test_head {
+
+	text-align: center;
+	font-size: 1.2rem;
+	color: var(--sec-txt);
+
+	background-color: var(--boxgrey);
+	border-radius: 20px;
+}
+
+.section4 .testimonial_wrapper .test_head>h3 {
+
+	font-size: 2.5rem !important;
+	color: red;
+}
+
+.section4 .testimonial_wrapper .testimonial .img_wrapper {
+	height: 200px;
+	width: 100%;
+	margin-bottom: 3rem;
+}
+
+.section4 .testimonial_wrapper .testimonial .img_wrapper img {
+	height: 100%;
+	width: 100%;
+	object-fit: scale-down;
+}
+
+
+.section4 .testimonial_wrapper .review {
+
+	height: 200px;
+	width: 100%;
+	text-align: center;
+	color: var(--sec-txt);
+
+}
+
+.section4 .testimonial_wrapper .review h1 {
+
+	color: red;
+}
+
+
+/* ------------   footer   --------------- */

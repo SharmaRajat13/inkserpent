@@ -23,7 +23,7 @@
 body {
 
 	width: 100%;
-	/* background-color: var(--darkbg); */
+	background-color: var(--darkbg);
 	color: red !important;
 
 }
@@ -39,7 +39,7 @@ body section {
 /*-------------- section 1 -------------*/
 
 .section1 {
-	height: 100vh;
+	height: auto;
 	background-image: url('back2back.jpg');
 	background-attachment: fixed;
 	background-size: cover;
@@ -115,6 +115,7 @@ body section {
 
 .welcometext button {
 	margin-top: 2rem;
+	margin-bottom: 1rem;
 	font-weight: bold;
 }
 
@@ -220,6 +221,7 @@ body section {
 }
 
 /*    about Section of section 3 */
+
 .section3 .wrapper .about-tattoo>h1 {
 	color: var(--darkbg);
 	padding: 5px;

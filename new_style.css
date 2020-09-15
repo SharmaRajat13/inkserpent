@@ -39,9 +39,9 @@ body section {
 /*-------------- section 1 -------------*/
 
 .section1 {
-	height: auto;
+	height: 100%;
 	background-image: url('back2back.jpg');
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-size: cover;
 	background-repeat: no-repeat;
 
@@ -99,6 +99,7 @@ body section {
 
 /*        Weclcome text      */
 
+
 .welcometext h1 {
 
 	font-size: 2.5rem;
@@ -114,8 +115,8 @@ body section {
 }
 
 .welcometext button {
-	margin-top: 2rem;
-	margin-bottom: 1rem;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
 	font-weight: bold;
 }
 
